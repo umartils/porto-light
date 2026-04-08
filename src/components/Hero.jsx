@@ -60,7 +60,7 @@ export default function Hero({ loading }) {
       </div>
 
       {/* RIGHT IMAGE */}
-      <div className="order-1 md:order-2 flex flex-col items-center relative w-fit md:ml-auto ml-15">
+      <div className="order-1 md:order-2 flex flex-col items-center relative w-full md:w-fit md:ml-auto">
         {/* Glow */}
         <div className="absolute inset-0 scale-110 rounded-full blur-2xl bg-linear-to-tr from-violet-600/30 via-purple-500/20 to-transparent"></div>
 

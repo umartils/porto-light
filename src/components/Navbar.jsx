@@ -117,7 +117,8 @@ export default function Navbar() {
           ))}
 
           <a
-            href="#"
+            href="/files/cv-umar.pdf"
+            download={true}
             className="mt-2 flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium text-violet-300 bg-violet-600/15 border border-violet-500/35"
           >
             <i className="ri-download-line ri-sm" />
