@@ -1,9 +1,13 @@
-import DataImage from "../data";
+/* eslint-disable react/react-in-jsx-scope */
+import DataImage from '../data';
 
 const socialLinks = [
-  { href: "https://github.com/umartils/", icon: "ri-github-fill" },
-  { href: "https://www.instagram.com/umartils_", icon: "ri-instagram-fill" },
-  { href: "https://www.linkedin.com/in/umartils/", icon: "ri-linkedin-box-fill" },
+  { href: 'https://github.com/umartils/', icon: 'ri-github-fill' },
+  { href: 'https://www.instagram.com/umartils_', icon: 'ri-instagram-fill' },
+  {
+    href: 'https://www.linkedin.com/in/umartils/',
+    icon: 'ri-linkedin-box-fill',
+  },
 ];
 
 export default function Hero() {
@@ -14,7 +18,6 @@ export default function Hero() {
     >
       {/* LEFT CONTENT */}
       <div className="animate__animated animate__fadeInLeft animate__delay-3s">
-        
         {/* Badge */}
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl border border-zinc-700">
           <img
@@ -30,8 +33,7 @@ export default function Hero() {
 
         {/* Heading */}
         <h1 className="text-5xl/tight font-bold mb-2">
-          Halo, Saya{" "}
-          <span className="text-violet-400">Umar Tilmisani</span>
+          Halo, Saya <span className="text-violet-400">Umar Tilmisaniss</span>
         </h1>
 
         {/* Subheading */}
@@ -41,20 +43,19 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-base/loose mb-6 opacity-70">
-            Saya adalah seorang pengembang yang berfokus pada pengembangan software, perangkat IoT, dan solusi berbasis AI/ML. 
-            Saya terbiasa membangun sistem end-to-end mulai dari perangkat keras, 
-            backend, hingga aplikasi yang terintegrasi. Saya menggabungkan pemahaman teknis yang kuat dengan pendekatan problem-solving 
-            untuk menghasilkan solusi yang fungsional, efisien, dan berdampak nyata.
+          Saya adalah seorang pengembang yang berfokus pada pengembangan
+          software, perangkat IoT, dan solusi berbasis AI/ML. Saya terbiasa
+          membangun sistem end-to-end mulai dari perangkat keras, backend,
+          hingga aplikasi yang terintegrasi. Saya menggabungkan pemahaman teknis
+          yang kuat dengan pendekatan problem-solving untuk menghasilkan solusi
+          yang fungsional, efisien, dan berdampak nyata.
         </p>
 
         {/* CTA & Social */}
         <div className="flex items-center gap-6">
-          
           {/* Button */}
           <div className="flex items-center justify-center h-12 px-6 bg-violet-800 border border-violet-700 rounded-full">
-            <h3 className="text-sm font-medium text-white">
-              Hubungi saya
-            </h3>
+            <h3 className="text-sm font-medium text-white">Hubungi saya</h3>
           </div>
 
           {/* Social Icons */}
@@ -71,15 +72,13 @@ export default function Hero() {
               </a>
             ))}
           </div>
-
         </div>
       </div>
 
       {/* RIGHT IMAGE */}
       <div className="relative w-fit md:ml-auto">
-        
         {/* Glow */}
-        <div className="absolute inset-0 scale-110 rounded-full blur-2xl bg-gradient-to-tr from-violet-600/30 via-purple-500/20 to-transparent"></div>
+        <div className="absolute inset-0 scale-110 rounded-full blur-2xl bg-linear-to-tr from-violet-600/30 via-purple-500/20 to-transparent"></div>
 
         {/* Image */}
         <img

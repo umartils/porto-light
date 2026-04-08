@@ -1,13 +1,14 @@
-import { useState } from "react";
-import { listSertifikat } from "../data";
+/* eslint-disable react/react-in-jsx-scope */
+import { useState } from 'react';
+import { listSertifikat } from '../data';
 
 const bidangColors = {
-  "Web Development": "bg-violet-600/20 text-violet-300 border-violet-600/40",
-  "AI / Machine Learning": "bg-blue-600/20 text-blue-300 border-blue-600/40",
-  "UI/UX Design": "bg-pink-600/20 text-pink-300 border-pink-600/40",
-  "Frontend Development": "bg-cyan-600/20 text-cyan-300 border-cyan-600/40",
-  "Cloud Computing": "bg-orange-600/20 text-orange-300 border-orange-600/40",
-  "Data Science": "bg-green-600/20 text-green-300 border-green-600/40",
+  'Web Development': 'bg-violet-600/20 text-violet-300 border-violet-600/40',
+  'AI / Machine Learning': 'bg-blue-600/20 text-blue-300 border-blue-600/40',
+  'UI/UX Design': 'bg-pink-600/20 text-pink-300 border-pink-600/40',
+  'Frontend Development': 'bg-cyan-600/20 text-cyan-300 border-cyan-600/40',
+  'Cloud Computing': 'bg-orange-600/20 text-orange-300 border-orange-600/40',
+  'Data Science': 'bg-green-600/20 text-green-300 border-green-600/40',
 };
 
 export default function Certificates() {
@@ -64,7 +65,7 @@ export default function Certificates() {
               <span
                 className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full border mb-3 ${
                   bidangColors[sertif.bidang] ||
-                  "bg-zinc-700/40 text-zinc-300 border-zinc-600"
+                  'bg-zinc-700/40 text-zinc-300 border-zinc-600'
                 }`}
               >
                 <i className="ri-award-line ri-sm"></i>
@@ -109,7 +110,7 @@ export default function Certificates() {
               <span
                 className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full border mb-4 ${
                   bidangColors[selected.bidang] ||
-                  "bg-zinc-700/40 text-zinc-300 border-zinc-600"
+                  'bg-zinc-700/40 text-zinc-300 border-zinc-600'
                 }`}
               >
                 <i className="ri-award-line ri-sm"></i>
@@ -127,13 +128,13 @@ export default function Certificates() {
                 </span>
               </div>
               <a
-                  href={selected.credentials}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-violet-600 px-4 py-1.5 rounded-full hover:bg-violet-500 transition-colors"
-                >
-                  <i className="ri-eye-line ri-sm"></i>Lihat Credentials
-                </a>
+                href={selected.credentials}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-violet-600 px-4 py-1.5 rounded-full hover:bg-violet-500 transition-colors"
+              >
+                <i className="ri-eye-line ri-sm"></i>Lihat Credentials
+              </a>
               {/* <a
                 href={selected.credentials}
                 target="_blank"

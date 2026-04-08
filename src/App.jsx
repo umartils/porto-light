@@ -1,10 +1,10 @@
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Certificates from "./components/Certificates"
-import Projects from "./components/Projects"
+/* eslint-disable react/react-in-jsx-scope */
+import Hero from './components/Hero';
+import About from './components/About';
+import Certificates from './components/Certificates';
+import Projects from './components/Projects';
 
 export default function App() {
-
   return (
     <>
       {/* Hero Section */}
@@ -19,5 +19,5 @@ export default function App() {
       {/* Projects Section */}
       <Projects />
     </>
-  )
+  );
 }
