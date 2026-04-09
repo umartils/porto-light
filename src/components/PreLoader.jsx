@@ -11,12 +11,12 @@ export default function PreLoader() {
 
   return (
     loading && (
-      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black px-4 z-50">
+      <div className="fixed inset-0 flex flex-col items-center justify-center bg-slate-50 px-4 z-50">
         {/* Spinner */}
         <div role="status" className="flex flex-col items-center gap-4">
           <svg
             aria-hidden="true"
-            className="animate-spin text-gray-200 fill-purple-600
+            className="animate-spin text-gray-200 fill-blue-600
                        w-8 h-8 
                        sm:w-10 sm:h-10 
                        md:w-12 md:h-12"

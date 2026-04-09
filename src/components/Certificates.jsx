@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { listSertifikat } from '../data';
 
 const bidangColors = {
-  'Web Development': 'bg-violet-600/20 text-violet-300 border-violet-600/40',
+  'Web Development': 'bg-sky-600/20 text-sky-300 border-sky-600/40',
   'AI / Machine Learning': 'bg-blue-600/20 text-blue-300 border-blue-600/40',
   'UI/UX Design': 'bg-pink-600/20 text-pink-300 border-pink-600/40',
   'Frontend Development': 'bg-cyan-600/20 text-cyan-300 border-cyan-600/40',
@@ -17,7 +17,7 @@ export default function Certificates() {
   return (
     <div className="certificates mt-32 py-10" id="certificates">
       <h1
-        className="text-center text-4xl/snug font-bold mb-3"
+        className="text-center text-4xl/snug font-bold mb-10"
         data-aos="fade-down"
         data-aos-duration="1000"
       >
@@ -40,7 +40,7 @@ export default function Certificates() {
         {listSertifikat.map((sertif) => (
           <div
             key={sertif.id}
-            className="group relative bg-zinc-800/60 border border-zinc-700 rounded-2xl overflow-hidden hover:border-violet-500/50 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+            className="group relative bg-sky-800/60 border border-sky-700 rounded-2xl overflow-hidden hover:border-violet-500/50 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
             onClick={() => setSelected(sertif)}
           >
             {/* Certificate Image */}
@@ -52,7 +52,7 @@ export default function Certificates() {
                 className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-linear-to-t from-zinc-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-                <span className="text-sm font-medium bg-violet-600 px-4 py-1.5 rounded-full flex items-center gap-2">
+                <span className="text-sm font-medium text-slate-50 bg-sky-600 px-4 py-1.5 rounded-full flex items-center gap-2">
                   <i className="ri-eye-line"></i>
                   Lihat Detail
                 </span>
@@ -72,7 +72,7 @@ export default function Certificates() {
                 {sertif.bidang}
               </span>
 
-              <h3 className="font-bold text-lg leading-snug mb-2 group-hover:text-violet-300 transition-colors">
+              <h3 className="font-bold text-lg leading-snug mb-2 group-hover:text-sky-300 transition-colors">
                 {sertif.nama}
               </h3>
 
@@ -131,7 +131,7 @@ export default function Certificates() {
                 href={selected.credentials}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-violet-600 px-4 py-1.5 rounded-full hover:bg-violet-500 transition-colors"
+                className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-sky-600 px-4 py-1.5 rounded-full hover:bg-sky-500 transition-colors"
               >
                 <i className="ri-eye-line ri-sm"></i>Lihat Credentials
               </a>
@@ -139,7 +139,7 @@ export default function Certificates() {
                 href={selected.credentials}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-violet-600 px-4 py-1.5 rounded-full"
+                className="mt-4 inline-flex items-center gap-1 text-sm font-medium bg-sky-600 px-4 py-1.5 rounded-full"
               >
                 <i className="ri-eye-line ri-sm"></i>
                 Lihat Credentials

@@ -14,11 +14,11 @@ export default function App({ loading }) {
       {/* About Section */}
       <About />
 
-      {/* Certificates Section */}
-      <Certificates />
-
       {/* Projects Section */}
       <Projects />
+
+      {/* Certificates Section */}
+      <Certificates />
     </>
   );
 }
