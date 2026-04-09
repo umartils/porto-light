@@ -60,13 +60,13 @@ export default function About() {
                 className="w-20 h-20 object-cover rounded-xl ring-4 ring-white/30 shadow-md md:block hidden"
               />
               <div className="flex items-center gap-4 ml-5">
-                <span className="px-3 py-1 text-xs bg-white/20 rounded-full">
+                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   20+ Projects
                 </span>
-                <span className="px-3 py-1 text-xs bg-white/20 rounded-full">
+                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   AI/ML Enthusiast
                 </span>
-                <span className="px-3 py-1 text-xs bg-white/20 rounded-full">
+                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   IoT Developer
                 </span>
               </div>
