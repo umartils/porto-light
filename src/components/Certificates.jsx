@@ -182,7 +182,7 @@ export default function Certificates() {
                     loading="lazy"
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                     <span className="text-sm font-medium text-white bg-sky-500 px-4 py-2 rounded-full shadow-md flex items-center gap-2">
                       <i className="ri-eye-line"></i>
@@ -205,6 +205,10 @@ export default function Certificates() {
                   <h3 className="font-semibold text-base leading-snug mb-2 text-slate-800 group-hover:text-sky-600 transition-colors">
                     {sertif.nama}
                   </h3>
+                  <span className="text-sm font-medium text-white bg-sky-500 px-3 py-1.5 rounded-full shadow-md inline-flex items-center gap-1">
+                    <i className="ri-eye-line"></i>
+                    Detail
+                  </span>
                   <div className="flex items-center justify-between mt-4 pt-3 border-t border-slate-100 text-sm text-slate-500">
                     <span className="flex items-center gap-1.5">
                       <i className="ri-building-line"></i>

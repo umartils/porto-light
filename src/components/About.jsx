@@ -52,21 +52,22 @@ export default function About() {
             </p>
 
             {/* Highlight Badge */}
-            <div className="flex items-center justify-baseline gap-2 mt-6">
+            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 mt-6">
               <img
                 src={DataImage.FormalImage}
                 alt="Umar Tilmisani"
                 loading="lazy"
-                className="w-20 h-20 object-cover rounded-xl ring-4 ring-white/30 shadow-md md:block hidden"
+                className="w-20 h-20 object-cover rounded-xl ring-4 ring-white/30 shadow-md hidden md:block"
               />
-              <div className="flex items-center gap-4 ml-5">
-                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
+
+              <div className="flex flex-wrap justify-center md:justify-start items-center gap-3">
+                <span className="md:px-3 px-2 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   20+ Projects
                 </span>
-                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
+                <span className="md:px-3 px-2 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   AI/ML Enthusiast
                 </span>
-                <span className="px-3 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
+                <span className="md:px-3 px-2 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   IoT Developer
                 </span>
               </div>
