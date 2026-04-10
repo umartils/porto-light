@@ -31,23 +31,42 @@ export default function About() {
           <div>
             <p className="text-white text-center md:text-start text-base md:text-lg leading-relaxed opacity-95">
               Saya <span className="font-semibold">Umar Tilmisani</span>, fresh
-              graduate Teknik Komputer dengan{' '}
-              <span className="font-semibold">IPK 3.91</span>
-              yang lulus dalam 3.5 tahun. Memiliki pengalaman sebagai
+              graduate Teknik Komputer yang memiliki minat besar di bidang data
+              dan kecerdasan buatan. Saya senang mengeksplorasi teknologi baru
+              dan terus mengembangkan kemampuan untuk menciptakan solusi yang
+              inovatif dan relevan dengan kebutuhan saat ini. Saya memiliki
+              pengalaman sebagai
               <span className="font-semibold"> intern di Telkomsel</span> serta
-              peserta <span className="font-semibold">Coding Camp 2025</span>{' '}
-              dengan pencapaian{' '}
-              <span className="font-semibold">Top-Scoring Student</span>.
+              mengikuti
+              <span className="font-semibold"> Coding Camp 2025</span> dengan
+              pencapaian
+              <span className="font-semibold"> Top-Scoring Student</span>.
             </p>
 
             <p className="text-white text-center md:text-start text-base md:text-lg leading-relaxed mt-4 opacity-90">
-              Berpengalaman mengembangkan berbagai macam proyek di bidang IT
-              mencakup
+              Saya juga telah mengikuti berbagai pelatihan di bidang IT,
+              khususnya
+              <span className="font-semibold"> AI/Machine Learning</span>, yang
+              dibuktikan dengan beberapa sertifikat profesional, termasuk
+              <span className="font-semibold">
+                {' '}
+                Microsoft Azure AI Fundamentals
+              </span>{' '}
+              dan
+              <span className="font-semibold">
+                {' '}
+                Microsoft Office Specialist
+              </span>
+              .
+            </p>
+
+            <p className="text-white text-center md:text-start text-base md:text-lg leading-relaxed mt-4 opacity-90">
+              Saya telah mengerjakan berbagai proyek di bidang
               <span className="font-semibold"> software development</span>,
               <span className="font-semibold"> AI/Machine Learning</span>, dan
-              <span className="font-semibold"> IoT</span>. Saya berfokus pada
-              membangun solusi yang efisien, scalable, dan memberikan dampak
-              nyata.
+              <span className="font-semibold"> IoT</span>. Fokus saya adalah
+              membangun solusi yang tidak hanya fungsional, tetapi juga efisien,
+              scalable, dan memberikan dampak nyata.
             </p>
 
             {/* Highlight Badge */}
