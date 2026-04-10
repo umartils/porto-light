@@ -103,8 +103,8 @@ export const listTools = [
 
 import Proyek1 from './assets/proyek/project1.png';
 import Proyek2 from './assets/proyek/project2.png';
-import Proyek3 from './assets/proyek/proyek3.webp';
-import Proyek4 from './assets/proyek/proyek4.webp';
+import Proyek3 from './assets/proyek/project3.png';
+import Proyek4 from './assets/proyek/project4.png';
 import Proyek5 from './assets/proyek/proyek5.webp';
 import Proyek6 from './assets/proyek/proyek6.webp';
 
@@ -146,18 +146,18 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: 'Web Pernikahan 2.0',
+    nama: 'Form Request Website',
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['Vite', 'ReactJS', 'TailwindCSS', 'AOS'],
+    tools: ['Laravel', 'PHP', 'Javascript', 'MySQL', 'Google Cloud'],
     dad: '400',
     link: 'https://www.github.com/umartils',
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: 'Website Course',
+    nama: 'Chatbot Mobile Application',
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['Vite', 'ReactJS', 'Bootstrap', 'AOS'],
+    tools: ['Flutter', 'Dart', 'SQLite'],
     dad: '500',
     link: 'https://www.github.com/umartils',
   },

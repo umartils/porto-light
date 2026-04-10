@@ -1,6 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
 import DataImage from '../data';
-import { listTools } from '../data';
 
 export default function About() {
   return (
@@ -76,36 +75,201 @@ export default function About() {
         </div>
       </div>
 
-      {/* Tools */}
-      <div className="tools mt-30 py-10">
+      {/* Skills */}
+      <div className="mt-30 py-10">
         <h1
-          className="text-center text-4xl/snug font-bold mb-10"
+          className="text-center text-4xl/snug font-bold mb-12 text-gray-900"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          Tools
+          Skill
         </h1>
+
         <div
-          className="tools-box grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4"
+          className="grid lg:grid-cols-3 gap-6"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          {listTools.map((tool) => (
-            <div
-              className="flex items-center gap-3 p-4 border border-sky-700 rounded-xl hover:bg-sky-800 hover:border-violet-600/40 group transition-all"
-              key={tool.id}
-            >
-              <img
-                src={tool.gambar}
-                alt="Tools Image"
-                className="w-12 h-12 object-contain bg-sky-800 p-1.5 rounded-lg group-hover:bg-sky-900"
-              />
+          {/* Fullstack Developer */}
+          <div className="group flex flex-col p-6 rounded-2xl border border-gray-200 bg-white hover:border-sky-400 hover:shadow-lg transition-all duration-300">
+            {/* Icon & Title */}
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-11 h-11 rounded-xl bg-sky-100 flex items-center justify-center text-xl">
+                <i className="ri-macbook-line"></i>
+              </div>
               <div>
-                <h4 className="font-semibold text-sm">{tool.nama}</h4>
-                <p className="opacity-50 text-xs mt-0.5">{tool.ket}</p>
+                <h3 className="font-bold text-base text-gray-900">
+                  Fullstack Developer
+                </h3>
+                <p className="text-xs text-sky-600 font-medium">
+                  Web & Backend Engineering
+                </p>
               </div>
             </div>
-          ))}
+
+            {/* Description */}
+            <p className="text-sm text-gray-500 leading-relaxed mb-4">
+              Membangun aplikasi web end-to-end, mulai dari antarmuka pengguna
+              yang responsif hingga sistem backend yang skalabel dan RESTful
+              API.
+            </p>
+
+            {/* Divider */}
+            <div className="h-px bg-gray-100 mb-4" />
+
+            {/* Tech Stack Chips */}
+            <div className="flex flex-wrap gap-2 mt-auto">
+              {[
+                {
+                  name: 'Next.js',
+                  color: 'bg-gray-100 text-gray-700 border-gray-300',
+                },
+                {
+                  name: 'React.js',
+                  color: 'bg-cyan-50 text-cyan-700 border-cyan-200',
+                },
+                {
+                  name: 'Tailwind CSS',
+                  color: 'bg-sky-50 text-sky-700 border-sky-200',
+                },
+                {
+                  name: 'Laravel',
+                  color: 'bg-red-50 text-red-600 border-red-200',
+                },
+                {
+                  name: 'MySQL',
+                  color: 'bg-orange-50 text-orange-600 border-orange-200',
+                },
+                {
+                  name: 'Flask',
+                  color: 'bg-slate-100 text-slate-600 border-slate-300',
+                },
+              ].map((tech) => (
+                <span
+                  key={tech.name}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium ${tech.color}`}
+                >
+                  {tech.name}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* ML / AI */}
+          <div className="group flex flex-col p-6 rounded-2xl border border-gray-200 bg-white hover:border-emerald-400 hover:shadow-lg transition-all duration-300">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-11 h-11 rounded-xl bg-emerald-100 flex items-center justify-center text-xl">
+                <i className="ri-robot-2-line"></i>
+              </div>
+              <div>
+                <h3 className="font-bold text-base text-gray-900">
+                  Machine Learning / AI
+                </h3>
+                <p className="text-xs text-emerald-600 font-medium">
+                  Data & Intelligent Systems
+                </p>
+              </div>
+            </div>
+
+            {/* Description */}
+            <p className="text-sm text-gray-500 leading-relaxed mb-4">
+              Merancang dan melatih model machine learning dan deep learning
+              untuk klasifikasi, deteksi objek, serta membangun aplikasi
+              berbasis LLM dengan LangChain.
+            </p>
+
+            <div className="h-px bg-gray-100 mb-4" />
+
+            <div className="flex flex-wrap gap-2 mt-auto">
+              {[
+                {
+                  name: 'Python',
+                  color: 'bg-yellow-50 text-yellow-700 border-yellow-200',
+                },
+                {
+                  name: 'Scikit-learn',
+                  color: 'bg-orange-50 text-orange-600 border-orange-200',
+                },
+                {
+                  name: 'TensorFlow',
+                  color: 'bg-amber-50 text-amber-700 border-amber-200',
+                },
+                {
+                  name: 'PyTorch',
+                  color: 'bg-red-50 text-red-600 border-red-200',
+                },
+                {
+                  name: 'LangChain',
+                  color: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+                },
+                {
+                  name: 'Pandas',
+                  color: 'bg-indigo-50 text-indigo-600 border-indigo-200',
+                },
+              ].map((tech) => (
+                <span
+                  key={tech.name}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium ${tech.color}`}
+                >
+                  {tech.name}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* IoT */}
+          <div className="group flex flex-col p-6 rounded-2xl border border-gray-200 bg-white hover:border-blue-400 hover:shadow-lg transition-all duration-300">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-11 h-11 rounded-xl bg-blue-100 flex items-center justify-center text-xl">
+                <i className="ri-cpu-line"></i>
+              </div>
+              <div>
+                <h3 className="font-bold text-base text-gray-900">
+                  Internet of Things
+                </h3>
+                <p className="text-xs text-blue-600 font-medium">
+                  Embedded & Hardware Systems
+                </p>
+              </div>
+            </div>
+
+            {/* Description */}
+            <p className="text-sm text-gray-500 leading-relaxed mb-4">
+              Mengembangkan sistem embedded dan perangkat keras cerdas,
+              mengintegrasikan sensor, aktuator, serta computer vision langsung
+              di edge device.
+            </p>
+
+            <div className="h-px bg-gray-100 mb-4" />
+
+            <div className="flex flex-wrap gap-2 mt-auto">
+              {[
+                {
+                  name: 'Arduino',
+                  color: 'bg-teal-50 text-teal-700 border-teal-200',
+                },
+                {
+                  name: 'ESP',
+                  color: 'bg-sky-50 text-sky-700 border-sky-200',
+                },
+                {
+                  name: 'Jetson Nano',
+                  color: 'bg-green-50 text-green-700 border-green-200',
+                },
+                {
+                  name: 'Raspberry Pi',
+                  color: 'bg-pink-50 text-pink-600 border-pink-200',
+                },
+              ].map((tech) => (
+                <span
+                  key={tech.name}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium ${tech.color}`}
+                >
+                  {tech.name}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
