@@ -14,7 +14,7 @@ export default function About() {
       </h1>
 
       <div
-        className="max-w-4xl mx-auto p-8 md:p-10 bg-linear-to-br from-sky-600 to-sky-700 rounded-3xl shadow-xl border border-sky-500/30"
+        className="max-w-4xl mx-auto p-8 md:p-10 bg-linear-to-br from-sky-700 to-sky-800 rounded-3xl shadow-xl border border-sky-500/30"
         data-aos="fade-up"
         data-aos-duration="1000"
       >

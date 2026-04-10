@@ -101,8 +101,8 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from './assets/proyek/proyek1.webp';
-import Proyek2 from './assets/proyek/proyek2.webp';
+import Proyek1 from './assets/proyek/project1.png';
+import Proyek2 from './assets/proyek/project2.png';
 import Proyek3 from './assets/proyek/proyek3.webp';
 import Proyek4 from './assets/proyek/proyek4.webp';
 import Proyek5 from './assets/proyek/proyek5.webp';
@@ -112,18 +112,36 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: 'Website Sekolah',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['HTML', 'CSS', 'Javascript', 'AOS'],
+    nama: 'AI Smart Crossing Device',
+    desk: 'Proyek ini merupakan solusi smart city yang mengotomatisasi lampu penyebrangan jalan (pedestrian crossing) menggunakan teknologi Computer Vision.',
+    tools: [
+      'AI',
+      'IoT',
+      'Computer Vision',
+      'YOLO',
+      'Jetson Nano',
+      'Linux',
+      'Python',
+    ],
     dad: '200',
+    link: 'https://www.youtube.com/watch?v=csYZiGcbWLE&feature=youtu.be',
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: 'Company Profile',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['HTML', 'CSS', 'Javascript', 'AOS', 'Swiper', 'Lightbox Gallery'],
+    nama: 'Real-time Obstacle Detection Vest',
+    desk: 'Proyek ini merupakan sebuah rompi pintar yang menggunakan teknologi Computer Vision untuk mendeteksi rintangan di sekitar pengguna secara real-time, memberikan peringatan melalui suara.',
+    tools: [
+      'AI',
+      'IoT',
+      'Computer Vision',
+      'YOLO',
+      'Jetson Nano',
+      'Linux',
+      'Python',
+    ],
     dad: '300',
+    link: 'https://drive.google.com/file/d/1JLiwhpc2gz83XrjrL509w8coUPimqOdz/view?usp=share_link',
   },
   {
     id: 3,
@@ -132,6 +150,7 @@ export const listProyek = [
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
     tools: ['Vite', 'ReactJS', 'TailwindCSS', 'AOS'],
     dad: '400',
+    link: 'https://www.github.com/umartils',
   },
   {
     id: 4,
@@ -140,6 +159,7 @@ export const listProyek = [
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
     tools: ['Vite', 'ReactJS', 'Bootstrap', 'AOS'],
     dad: '500',
+    link: 'https://www.github.com/umartils',
   },
   {
     id: 5,
@@ -148,6 +168,7 @@ export const listProyek = [
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
     tools: ['HTML', 'CSS', 'Javascript', 'Bootsrap'],
     dad: '600',
+    link: 'https://www.github.com/umartils',
   },
   {
     id: 6,
@@ -156,6 +177,7 @@ export const listProyek = [
     desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
     tools: ['NextJS', 'TailwindCSS', 'Framermotion'],
     dad: '700',
+    link: 'https://www.github.com/umartils',
   },
 ];
 

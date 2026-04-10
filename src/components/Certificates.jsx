@@ -132,7 +132,7 @@ export default function Certificates() {
         <button
           onClick={goPrev}
           disabled={currentIndex === 0}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white border border-slate-200 shadow-md text-slate-600 hover:text-sky-600 hover:border-sky-300 hover:shadow-sky-100 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white border border-slate-200 shadow-md text-slate-600 hover:text-sky-800 hover:border-sky-700 hover:shadow-sky-100 transition-all duration-200 disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Previous"
         >
           <i className="ri-arrow-left-s-line text-xl"></i>
@@ -202,13 +202,9 @@ export default function Certificates() {
                     <i className="ri-award-line ri-sm"></i>
                     {sertif.bidang}
                   </span>
-                  <h3 className="font-semibold text-base leading-snug mb-2 text-slate-800 group-hover:text-sky-600 transition-colors">
+                  <h3 className="font-semibold text-base leading-snug mb-2 text-slate-600 group-hover:text-sky-800 transition-colors">
                     {sertif.nama}
                   </h3>
-                  <span className="text-sm font-medium text-white bg-sky-500 px-3 py-1.5 rounded-full shadow-md inline-flex items-center gap-1">
-                    <i className="ri-eye-line"></i>
-                    Detail
-                  </span>
                   <div className="flex items-center justify-between mt-4 pt-3 border-t border-slate-100 text-sm text-slate-500">
                     <span className="flex items-center gap-1.5">
                       <i className="ri-building-line"></i>
