@@ -41,13 +41,13 @@ export default function About() {
             </p>
 
             <p className="text-white text-center md:text-start text-base md:text-lg leading-relaxed mt-4 opacity-90">
-              Berpengalaman mengembangkan lebih dari
-              <span className="font-semibold"> 20+ proyek</span> mencakup
+              Berpengalaman mengembangkan berbagai macam proyek di bidang IT
+              mencakup
               <span className="font-semibold"> software development</span>,
-              <span className="font-semibold"> IoT</span>, dan
-              <span className="font-semibold"> AI/Machine Learning</span>. Saya
-              berfokus pada membangun solusi yang efisien, scalable, dan
-              memberikan dampak nyata.
+              <span className="font-semibold"> AI/Machine Learning</span>, dan
+              <span className="font-semibold"> IoT</span>. Saya berfokus pada
+              membangun solusi yang efisien, scalable, dan memberikan dampak
+              nyata.
             </p>
 
             {/* Highlight Badge */}
@@ -61,7 +61,7 @@ export default function About() {
 
               <div className="flex flex-wrap justify-center md:justify-start items-center gap-3">
                 <span className="md:px-3 px-2 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
-                  20+ Projects
+                  Fullstack Developer
                 </span>
                 <span className="md:px-3 px-2 py-1 text-xs text-slate-50 bg-white/30 rounded-full">
                   AI/ML Enthusiast
