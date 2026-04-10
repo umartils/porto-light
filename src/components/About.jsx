@@ -32,12 +32,16 @@ export default function About() {
             <p className="text-white text-center md:text-start text-base md:text-lg leading-relaxed opacity-95">
               Saya <span className="font-semibold">Umar Tilmisani</span>, fresh
               graduate Teknik Komputer yang memiliki minat besar di bidang data
-              dan kecerdasan buatan. Saya senang mengeksplorasi teknologi baru
-              dan terus mengembangkan kemampuan untuk menciptakan solusi yang
-              inovatif dan relevan dengan kebutuhan saat ini. Saya memiliki
-              pengalaman sebagai
-              <span className="font-semibold"> intern di Telkomsel</span> serta
-              mengikuti
+              dan kecerdasan buatan. Saya dikenal sebagai pribadi yang ulet,
+              mampu menyelesaikan tantangan, serta senang mengeksplorasi
+              teknologi baru dan terus mengembangkan kemampuan untuk menciptakan
+              solusi yang inovatif dan relevan dengan kebutuhan saat ini. Saya
+              memiliki pengalaman sebagai
+              <span className="font-semibold">
+                {' '}
+                intern di Telkomsel sebagai SQA intern
+              </span>{' '}
+              serta mengikuti
               <span className="font-semibold"> Coding Camp 2025</span> dengan
               pencapaian
               <span className="font-semibold"> Top-Scoring Student</span>.
