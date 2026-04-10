@@ -181,8 +181,8 @@ export const listProyek = [
   },
 ];
 
-import Sertif1 from './assets/sertifikat/sertif_1.jpg';
-import Sertif2 from './assets/sertifikat/sertif_2.jpg';
+import Sertif1 from './assets/sertifikat/sertif1.jpg';
+import Sertif2 from './assets/sertifikat/sertif2.jpg';
 import Sertif3 from './assets/sertifikat/sertif_3.jpg';
 import Sertif4 from './assets/sertifikat/sertif_4.jpg';
 import Sertif5 from './assets/sertifikat/sertif_5.jpg';
@@ -192,18 +192,18 @@ export const listSertifikat = [
   {
     id: 1,
     gambar: Sertif1,
-    nama: 'Belajar Machine Learning untuk Pemula',
+    nama: 'Microsoft Azure AI Fundamentals',
     bidang: 'AI / Machine Learning',
-    penerbit: 'Dicoding Indonesia',
-    tahun: '2025',
+    penerbit: 'Microsoft',
+    tahun: '2026',
     credentials: 'https://www.dicoding.com/certificates/98XWE9QOLXM3',
   },
   {
     id: 2,
     gambar: Sertif2,
-    nama: 'Belajar Pengembangan Machine Learning',
-    bidang: 'AI / Machine Learning',
-    penerbit: 'Dicoding Indonesia',
+    nama: 'Microsoft Office Specialist (Word 2019)',
+    bidang: 'Microsoft Office',
+    penerbit: 'Microsoft',
     tahun: '2025',
     credentials: 'https://www.dicoding.com/certificates/98XWE9QOLXM3',
   },
