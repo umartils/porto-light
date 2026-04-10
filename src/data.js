@@ -105,8 +105,8 @@ import Proyek1 from './assets/proyek/project1.png';
 import Proyek2 from './assets/proyek/project2.png';
 import Proyek3 from './assets/proyek/project3.png';
 import Proyek4 from './assets/proyek/project4.png';
-import Proyek5 from './assets/proyek/proyek5.webp';
-import Proyek6 from './assets/proyek/proyek6.webp';
+import Proyek5 from './assets/proyek/project5.png';
+import Proyek6 from './assets/proyek/project6.png';
 
 export const listProyek = [
   {
@@ -147,7 +147,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: 'Form Request Website',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
+    desk: 'Proyek ini merupakan sebuah website form request yang mempermudah pengguna dalam mengirimkan permintaan pengadaan proyek kepada pihak terkait.',
     tools: ['Laravel', 'PHP', 'Javascript', 'MySQL', 'Google Cloud'],
     dad: '400',
     link: 'https://www.github.com/umartils',
@@ -156,26 +156,53 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: 'Chatbot Mobile Application',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['Flutter', 'Dart', 'SQLite'],
+    desk: 'Proyek ini merupakan sebuah aplikasi chatbot yang menggunakan teknologi Flutter dan Dart yang mampu mendeteksi penyakit daun tanaman anggur berbasis AI yang terintegrasi dengan Computer Vision dan LLM.',
+    tools: [
+      'Flutter',
+      'Dart',
+      'SQLite',
+      'Flask',
+      'Tensorflow',
+      'YOLO',
+      'LangChain',
+      'OpenAI',
+    ],
     dad: '500',
     link: 'https://www.github.com/umartils',
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: 'Web Portfolio',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['HTML', 'CSS', 'Javascript', 'Bootsrap'],
+    nama: 'Acne Sense - Capstone Project',
+    desk: 'Acnesense adalah aplikasi web progresif yang dirancang untuk membantu pengguna dalam mendeteksi dan merawat masalah kulit, khususnya jerawat berbasis AI.',
+    tools: [
+      'ExpressJS',
+      'TailwindCSS',
+      'Supabase',
+      'Flask',
+      'Tensorflow',
+      'YOLO',
+      'LangChain',
+      'Google Cloud',
+      'Qdrant',
+    ],
     dad: '600',
-    link: 'https://www.github.com/umartils',
+    link: 'https://github.com/umartils/acne-sense-monorepo',
   },
   {
     id: 6,
     gambar: Proyek6,
-    nama: 'Company Profile 2.0',
-    desk: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!',
-    tools: ['NextJS', 'TailwindCSS', 'Framermotion'],
+    nama: 'Grape Leaf Disease Detection AI Model',
+    desk: 'Proyek ini merupakan sebuah model AI yang dirancang untuk mendeteksi penyakit pada daun tanaman anggur menggunakan teknologi Computer Vision dan Deep Learning.',
+    tools: [
+      'Python',
+      'Deep Learning',
+      'Computer Vision',
+      'Tensorflow',
+      'CNN',
+      'Ultralytics',
+      'YOLO',
+    ],
     dad: '700',
     link: 'https://www.github.com/umartils',
   },
@@ -186,7 +213,7 @@ import Sertif2 from './assets/sertifikat/sertif2.jpg';
 import Sertif3 from './assets/sertifikat/sertif_3.jpg';
 import Sertif4 from './assets/sertifikat/sertif_4.jpg';
 import Sertif5 from './assets/sertifikat/sertif_5.jpg';
-import Sertif6 from './assets/sertifikat/sertif_6.jpg';
+import Sertif6 from './assets/sertifikat/sertif_7.jpg';
 
 export const listSertifikat = [
   {
@@ -210,7 +237,7 @@ export const listSertifikat = [
   {
     id: 3,
     gambar: Sertif3,
-    nama: 'Machine Learning Terapan',
+    nama: 'Applied Machine Learning',
     bidang: 'AI / Machine Learning',
     penerbit: 'Dicoding Indonesia',
     tahun: '2025',
@@ -219,7 +246,7 @@ export const listSertifikat = [
   {
     id: 4,
     gambar: Sertif4,
-    nama: 'React JS Advanced',
+    nama: 'Building Machine Learning Systems',
     bidang: 'AI / Machine Learning',
     penerbit: 'Dicoding Indonesia',
     tahun: '2025',
@@ -228,7 +255,7 @@ export const listSertifikat = [
   {
     id: 5,
     gambar: Sertif5,
-    nama: 'Cloud Computing Essentials',
+    nama: 'Machine Learning Operations (MLOps)',
     bidang: 'AI / Machine Learning',
     penerbit: 'Dicoding Indonesia',
     tahun: '2025',
@@ -237,7 +264,7 @@ export const listSertifikat = [
   {
     id: 6,
     gambar: Sertif6,
-    nama: 'Data Science & Analytics',
+    nama: 'Fundamentals of Data Processing',
     bidang: 'Data Science',
     penerbit: 'Dicoding Indonesia',
     tahun: '2025',

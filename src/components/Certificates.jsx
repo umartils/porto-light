@@ -9,6 +9,7 @@ const bidangColors = {
   'Frontend Development': 'bg-cyan-100 text-cyan-700 border-cyan-200',
   'Cloud Computing': 'bg-orange-100 text-orange-700 border-orange-200',
   'Data Science': 'bg-emerald-100 text-emerald-700 border-emerald-200',
+  'Microsoft Office': 'bg-sky-100 text-sky-700 border-sky-200',
 };
 
 const CARD_WIDTH = 300;
@@ -184,10 +185,10 @@ export default function Certificates() {
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                    <span className="text-sm font-medium text-white bg-sky-500 px-4 py-2 rounded-full shadow-md flex items-center gap-2">
+                    {/* <span className="text-sm font-medium text-white bg-sky-500 px-4 py-2 rounded-full shadow-md flex items-center gap-2">
                       <i className="ri-eye-line"></i>
                       Detail
-                    </span>
+                    </span> */}
                   </div>
                 </div>
 
